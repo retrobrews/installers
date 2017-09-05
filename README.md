@@ -14,6 +14,6 @@ or <br />
 <i>chmod +x snes-roms.sh</i><br />
 <i>./snes-roms.sh</i><br />
 <br /><br />
-3) Once all will be installed and setup done - EmulationStation will run again automatically...<br />
+3) Once all will be downloaded and installed - EmulationStation will run again automatically...<br />
 <br />
 Enjoy!
