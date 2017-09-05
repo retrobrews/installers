@@ -40,10 +40,9 @@ cd /home/pi/RetroPie/roms/snes
 ###CLEAN EVERYTHING!
 rm -rf *.*
 
-
 ### GAMES
-wget -q -O snes-games.zip 'https://github.com/retrobrews/snes-games/archive/master.zip'
-unzip snes-games.zip
+wget -q -O https://github.com/retrobrews/snes-games/archive/master.zip
+unzip master.zip
 rm *.zip
 rm *.md
 echo " DOWNLOAD ... done."
