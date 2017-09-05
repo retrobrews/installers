@@ -44,7 +44,7 @@ rm -rf *.*
 ### GAMES
 wget --no-check-certificate -q -O master.zip 'https://codeload.github.com/retrobrews/snes-games/zip/master'
 unzip master.zip
-mv -v snes-games-master/* /home/pi/RetroPie/roms/snes 2> /dev/null
+mv -v snes-games-master/* /home/pi/RetroPie/roms/snes > /dev/null
 rm -rf snes-games-master
 rm *.zip
 echo " DOWNLOAD ... done."
@@ -59,7 +59,7 @@ sleep 2
 cd ~
 cd /home/pi/.emulationstation/gamelists/snes/
 rm gamelist.xml
-mv /home/pi/RetroPie/roms/snes/gamelist.xml /home/pi/.emulationstation/gamelists/snes 2> /dev/null
+mv /home/pi/RetroPie/roms/snes/gamelist.xml /home/pi/.emulationstation/gamelists/snes > /dev/null
 sleep 2
 
 cd /home/pi
