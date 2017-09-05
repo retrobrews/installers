@@ -89,7 +89,7 @@ echo ""
 echo ""
 echo "This script was not written by developers of RetroPie, Emulationstation"
 echo "or any Hobrew/Free game"
-echo "For further support on this script please email at retrobrews@gmail.com"
+echo "For further support on this script please email to retrobrews@gmail.com"
 echo "======================================================================="
 echo "BIG THANKS GOING to: "
 echo "various sources over the internet for the awesome games & covers!!"
@@ -98,5 +98,5 @@ echo ""
 echo "Enjoy the new games. Now script will run Emulationstation, please wait."
 echo ""
 echo ""
-sleep 10
+sleep 15
 emulationstation
