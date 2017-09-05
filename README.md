@@ -18,7 +18,7 @@ or <br />
 <br /><br />
  - Once all will be downloaded and installed - EmulationStation will run again automatically...<br />
 <br />
-________________________________________________________________________________________________________
+
 <br />
 <b>HOW TO INSTALL SNES ROMs ?</b><br />
 Once Retropie is running EmulationStation:<br />
