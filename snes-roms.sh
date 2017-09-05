@@ -13,7 +13,7 @@ echo "Copyright goes to the owner of the particular game."
 echo "Last update: 5th August 2017"
 echo ""
 echo "#######################################################################"
-echo "WARNING!! This installer will remove existing ROMs & GAMELISTS!"
+echo "WARNING!! This installer will remove existing ROMs & GAMELISTs!"
 echo "#######################################################################"
 echo ""
 echo "List of 21 Homebrew games, which will be installed for SNES"
@@ -42,7 +42,7 @@ rm -rf *.*
 
 
 ### GAMES
-wget -q -O snes-games.zip 'http://https://github.com/retrobrews/snes-games/archive/master.zip'
+wget -q -O snes-games.zip 'https://github.com/retrobrews/snes-games/archive/master.zip'
 unzip snes-games.zip
 rm *.zip
 rm *.md
