@@ -13,7 +13,7 @@ echo "Copyright goes to the owner of the particular game."
 echo "Last update: 5th August 2017"
 echo ""
 echo "#######################################################################"
-echo "WARNING!! This installer will remove existing ROMs & GAMELISTs!"
+echo "WARNING!! This installer will remove existing ROMs & GAMELISTS!"
 echo "#######################################################################"
 echo ""
 echo "List of 21 Homebrew games, which will be installed for SNES"
@@ -40,11 +40,13 @@ cd /home/pi/RetroPie/roms/snes
 ###CLEAN EVERYTHING!
 rm -rf *.*
 
+
 ### GAMES
-wget --no-check-certificate -q 'https://github.com/retrobrews/snes-games/archive/master.zip'
+wget --no-check-certificate -q -O master.zip 'https://codeload.github.com/retrobrews/snes-games/zip/master'
 unzip master.zip
+mv -v snes-games-master/* /home/pi/RetroPie/roms/snes 2> /dev/null
+rm -rf snes-games-master
 rm *.zip
-rm *.md
 echo " DOWNLOAD ... done."
 sleep 2
 
@@ -57,10 +59,11 @@ sleep 2
 cd ~
 cd /home/pi/.emulationstation/gamelists/snes/
 rm gamelist.xml
-mv /home/pi/RetroPie/roms/snes/snes.xml /home/pi/.emulationstation/gamelists/snes
+mv /home/pi/RetroPie/roms/snes/gamelist.xml /home/pi/.emulationstation/gamelists/snes 2> /dev/null
+sleep 2
 
 cd /home/pi
-rm snes-rom-installer.sh
+rm snes-roms.sh
 echo " GAMELIST UPDATE ... done."
 sleep 2
 clear
