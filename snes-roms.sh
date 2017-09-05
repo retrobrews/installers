@@ -47,6 +47,13 @@ unzip master.zip
 mv -v snes-games-master/* /home/pi/RetroPie/roms/snes > /dev/null
 rm -rf snes-games-master
 rm *.zip
+clear
+
+echo ""
+echo "======================================================================="
+echo "Downloading and Extracting Games to ROM directory, please wait..."
+echo "======================================================================="
+echo ""
 echo " DOWNLOAD ... done."
 sleep 2
 
@@ -64,6 +71,12 @@ sleep 2
 
 cd /home/pi
 rm snes-roms.sh
+clear
+echo ""
+echo "======================================================================="
+echo "Updating gamelist for Super Nintendo Entertainment System"
+echo "======================================================================="
+echo ""
 echo " GAMELIST UPDATE ... done."
 sleep 2
 clear
