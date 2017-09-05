@@ -41,7 +41,7 @@ cd /home/pi/RetroPie/roms/snes
 rm -rf *.*
 
 ### GAMES
-wget -q -O https://github.com/retrobrews/snes-games/archive/master.zip
+wget --no-check-certificate -q 'https://github.com/retrobrews/snes-games/archive/master.zip'
 unzip master.zip
 rm *.zip
 rm *.md
