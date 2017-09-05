@@ -68,7 +68,7 @@ sleep 2
 cd ~
 cd /home/pi/.emulationstation/gamelists/gbc/
 rm gamelist.xml
-mv /home/pi/RetroPie/roms/gbc/gamelist.xml /home/pi/.emulationstation/gamelists/gbc > /dev/null
+mv /home/pi/RetroPie/roms/gbc/gamelist.xml /home/pi/.emulationstation/gamelists/gbc/ > /dev/null
 sleep 2
 
 
@@ -77,7 +77,7 @@ rm gbc-roms.sh
 clear
 echo ""
 echo "======================================================================="
-echo "Updating gamelist for Super Nintendo Entertainment System"
+echo "Updating gamelist for Gameboy Color Games"
 echo "======================================================================="
 echo ""
 echo " GAMELIST UPDATE ... done."
