@@ -16,7 +16,7 @@ echo "#######################################################################"
 echo "WARNING!! This installer will remove existing ROMs & GAMELISTS!"
 echo "#######################################################################"
 echo ""
-echo "List of 21 Homebrew games, which will be installed for SNES"
+echo "List of all Homebrew games, which will be installed for SNES"
 echo "can be found on: https://github.com/retrobrews/snes-games"
 
 echo ""
