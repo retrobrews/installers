@@ -43,9 +43,8 @@ rm -rf *.*
 
 ### GAMES
 wget -q -O nes-games.zip 'http://https://github.com/retrobrews/nes-games/archive/master.zip'
-unzip nes-games.zip
+unzip master.zip
 rm *.zip
-rm *.md
 echo " DOWNLOAD ... done."
 sleep 2
 
