@@ -60,7 +60,7 @@ rm gamelist.xml
 mv /home/pi/RetroPie/roms/nes/gamelist.xml /home/pi/.emulationstation/gamelists/nes
 
 cd /home/pi
-rm snes-rom-installer.sh
+rm snes-roms.sh
 echo " GAMELIST UPDATE ... done."
 sleep 2
 clear
