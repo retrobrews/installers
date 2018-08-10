@@ -42,9 +42,18 @@ rm -rf *.*
 
 
 ### GAMES
-wget -q -O nes-games.zip 'http://https://github.com/retrobrews/nes-games/archive/master.zip'
+wget --no-check-certificate -q -O master.zip 'http://https://github.com/retrobrews/nes-games/archive/master.zip'
 unzip master.zip
+mv -v nes-games-master/* /home/pi/RetroPie/roms/nes > /dev/null
+rm -rf nes-games-master
 rm *.zip
+clear
+
+echo ""
+echo "======================================================================="
+echo "Downloading and Extracting Games to ROM directory, please wait..."
+echo "======================================================================="
+echo ""
 echo " DOWNLOAD ... done."
 sleep 2
 
