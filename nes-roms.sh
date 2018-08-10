@@ -42,7 +42,7 @@ rm -rf *.*
 
 
 ### GAMES
-wget --no-check-certificate -q -O master.zip 'http://https://github.com/retrobrews/nes-games/archive/master.zip'
+wget --no-check-certificate -q -O master.zip 'https://codeload.github.com/retrobrews/nes-games/zip/master'
 unzip master.zip
 mv -v nes-games-master/* /home/pi/RetroPie/roms/nes > /dev/null
 rm -rf nes-games-master
@@ -59,7 +59,7 @@ sleep 2
 
 echo ""
 echo "======================================================================="
-echo "Updating gamelist for Super Nintendo Entertainment System"
+echo "Updating gamelist for Nintendo Entertainment System"
 echo "======================================================================="
 echo ""
 sleep 2
