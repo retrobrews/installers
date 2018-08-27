@@ -5,7 +5,7 @@ Retropie auto-installer scripts for homebrew games
 <b>HOW TO INSTALL GBC ROMs ?</b><br />
 Once Retropie is running EmulationStation:<br />
 Hit F4
-<br /><br />
+<br />
 Enter below:<br />
 <i>wget http://tiny.cc/gbc-roms</i><br />
 <i>mv gbc-roms gbc-roms.sh</i><br />
@@ -23,7 +23,7 @@ Once all will be downloaded and installed - EmulationStation will run again auto
 <b>HOW TO INSTALL NES ROMs ?</b><br />
 Once Retropie is running EmulationStation:<br />
 Hit F4<br />
-<br /><br />
+<br />
 Enter below:<br />
 <i>wget http://tiny.cc/nes-roms</i><br />
 <i>mv nes-roms nes-roms.sh</i><br />
@@ -41,7 +41,7 @@ Once all will be downloaded and installed - EmulationStation will run again auto
 <b>HOW TO INSTALL SNES ROMs ?</b><br />
 Once Retropie is running EmulationStation:<br />
 Hit F4
-<br /><br />
+<br />
 Enter below:<br />
 <i>wget http://tiny.cc/snes-roms</i><br />
 <i>mv snes-roms snes-roms.sh</i><br />
@@ -59,7 +59,7 @@ Once all will be downloaded and installed - EmulationStation will run again auto
 <b>HOW TO INSTALL COLECOVISION ROMs ?</b><br />
 Once Retropie is running EmulationStation:<br />
 Hit F4
-<br /><br />
+<br />
 Enter below:<br />
 <i>wget http://tiny.cc/cv-roms</i><br />
 <i>mv cv-roms cv-roms.sh</i><br />
