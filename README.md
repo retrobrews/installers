@@ -22,7 +22,7 @@ Once all will be downloaded and installed - EmulationStation will run again auto
 
 <b>HOW TO INSTALL NES ROMs ?</b><br />
 Once Retropie is running EmulationStation:<br />
-Hit F4<br />
+Hit F4
 <br />
 Enter below:<br />
 <i>wget http://tiny.cc/nes-roms</i><br />
