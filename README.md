@@ -15,7 +15,7 @@ or <br />
 <i>wget https://raw.githubusercontent.com/retrobrews/installers/master/gbc-roms.sh</i><br />
 <i>chmod +x gbc-roms.sh</i><br />
 <i>./gbc-roms.sh</i><br />
-<br /><br />
+<br />
 Once all will be downloaded and installed - EmulationStation will run again automatically...<br />
 <br />
 
@@ -33,7 +33,7 @@ or<br />
 <i>wget https://raw.githubusercontent.com/retrobrews/installers/master/nes-roms.sh</i><br />
 <i>chmod +x nes-roms.sh</i><br />
 <i>./nes-roms.sh</i><br />
-<br /><br />
+<br />
 Once all will be downloaded and installed - EmulationStation will run again automatically...
 <br />
 
@@ -51,7 +51,7 @@ or <br />
 <i>wget https://raw.githubusercontent.com/retrobrews/installers/master/snes-roms.sh</i><br />
 <i>chmod +x snes-roms.sh</i><br />
 <i>./snes-roms.sh</i><br />
-<br /><br />
+<br />
 Once all will be downloaded and installed - EmulationStation will run again automatically...<br />
 <br />
 
@@ -69,7 +69,7 @@ or <br />
 <i>wget https://raw.githubusercontent.com/retrobrews/installers/master/cv-roms.sh</i><br />
 <i>chmod +x cv-roms.sh</i><br />
 <i>./cv-roms.sh</i><br />
-<br /><br />
+<br />
 Once all will be downloaded and installed - EmulationStation will run again automatically...<br />
 <br />
 
