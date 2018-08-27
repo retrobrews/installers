@@ -35,8 +35,9 @@ or<br />
 <i>./nes-roms.sh</i><br />
 <br /><br />
 Once all will be downloaded and installed - EmulationStation will run again automatically...
-
 <br />
+
+
 <b>HOW TO INSTALL SNES ROMs ?</b><br />
 Once Retropie is running EmulationStation:<br />
 Hit F4
@@ -50,6 +51,24 @@ or <br />
 <i>wget https://raw.githubusercontent.com/retrobrews/installers/master/snes-roms.sh</i><br />
 <i>chmod +x snes-roms.sh</i><br />
 <i>./snes-roms.sh</i><br />
+<br /><br />
+Once all will be downloaded and installed - EmulationStation will run again automatically...<br />
+<br />
+
+
+<b>HOW TO INSTALL COLECOVISION ROMs ?</b><br />
+Once Retropie is running EmulationStation:<br />
+Hit F4
+<br /><br />
+Enter below:<br />
+<i>wget http://tiny.cc/cv-roms</i><br />
+<i>mv cv-roms cv-roms.sh</i><br />
+<i>chmod +x cv-roms.sh</i><br />
+<i>./cv-roms.sh</i><br />
+or <br />
+<i>wget https://raw.githubusercontent.com/retrobrews/installers/master/cv-roms.sh</i><br />
+<i>chmod +x cv-roms.sh</i><br />
+<i>./cv-roms.sh</i><br />
 <br /><br />
 Once all will be downloaded and installed - EmulationStation will run again automatically...<br />
 <br />
