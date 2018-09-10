@@ -2,6 +2,23 @@
 Retropie auto-installer scripts for homebrew games
 
 
+<b>HOW TO INSTALL GBA ROMs ?</b><br />
+Once Retropie is running EmulationStation:<br />
+Hit F4
+<br />
+Enter below:<br />
+<i>wget http://tiny.cc/gba-roms</i><br />
+<i>mv gba-roms gba-roms.sh</i><br />
+<i>chmod +x gba-roms.sh</i><br />
+<i>./gba-roms.sh</i><br />
+or <br />
+<i>wget https://raw.githubusercontent.com/retrobrews/installers/master/gba-roms.sh</i><br />
+<i>chmod +x gba-roms.sh</i><br />
+<i>./gba-roms.sh</i><br />
+<br />
+Once all will be downloaded and installed - EmulationStation will run again automatically...<br />
+<br />
+
 <b>HOW TO INSTALL GBC ROMs ?</b><br />
 Once Retropie is running EmulationStation:<br />
 Hit F4
