@@ -89,6 +89,13 @@ or <br />
 <br />
 Once all will be downloaded and installed - EmulationStation will run again automatically...<br />
 <br />
+You will not see any emulator inside the RetroPie.. yet.. as CV emulator must be installed manually:
+<br />
+Go to RetroPie --> Retropie Setup<br />
+Select (P) Manage Packages --> (opt) Manage Optional Packages --> (108) coolcv --> (B) Install from Binary<br />
+Then few times Back.. Back.. Back.. Exit...<br />
+Once Done, you need to restart emulation station.<br />
+<br />
 
 
 
