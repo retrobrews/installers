@@ -17,6 +17,7 @@ or <br />
 <i>./gba-roms.sh</i><br />
 <br />
 Once all will be downloaded and installed - EmulationStation will run again automatically...<br />
+<hr>
 <br />
 
 <b>HOW TO INSTALL GBC ROMs ?</b><br />
@@ -34,6 +35,7 @@ or <br />
 <i>./gbc-roms.sh</i><br />
 <br />
 Once all will be downloaded and installed - EmulationStation will run again automatically...<br />
+<hr>
 <br />
 
 
@@ -51,7 +53,8 @@ or<br />
 <i>chmod +x nes-roms.sh</i><br />
 <i>./nes-roms.sh</i><br />
 <br />
-Once all will be downloaded and installed - EmulationStation will run again automatically...
+Once all will be downloaded and installed - EmulationStation will run again automatically...<br />
+<hr>
 <br />
 
 
@@ -70,6 +73,7 @@ or <br />
 <i>./snes-roms.sh</i><br />
 <br />
 Once all will be downloaded and installed - EmulationStation will run again automatically...<br />
+<hr>
 <br />
 
 
@@ -95,9 +99,9 @@ Go to RetroPie --> Retropie Setup<br />
 Select (P) Manage Packages --> (opt) Manage Optional Packages --> (108) coolcv --> (B) Install from Binary<br />
 Then few times Back.. Back.. Back.. Exit...<br />
 Once Done, you need to restart emulation station.<br />
+<hr>
 <br />
-
-
+<br />
 
 <b>HOW TO INSTALL ROMs MANUALLY?</b><br />
 
