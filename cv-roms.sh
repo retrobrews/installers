@@ -36,7 +36,12 @@ echo "======================================================================="
 echo ""
 sleep 2
 
-cd /home/pi/RetroPie/roms/coleco
+
+cd /home/pi/RetroPie/roms
+if [ ! -d "coleco" ]; then
+mkdir coleco
+fi
+cd coleco
 ###CLEAN EVERYTHING!
 rm -rf *.*
 
@@ -64,7 +69,11 @@ echo "======================================================================="
 echo ""
 sleep 2
 cd ~
-cd /home/pi/.emulationstation/gamelists/coleco/
+cd /home/pi/.emulationstation/gamelists/
+if [ ! -d "coleco" ]; then
+mkdir coleco
+fi
+cd coleco
 rm gamelist.xml
 mv /home/pi/RetroPie/roms/coleco/gamelist.xml /home/pi/.emulationstation/gamelists/coleco > /dev/null
 sleep 2
