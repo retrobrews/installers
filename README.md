@@ -62,9 +62,6 @@ Then few times Back.. Back.. Back.. Exit...<br />
 Once Done, you need to restart emulation station.<br />
 <hr>
 <br />
-<br />
-
-
 
 <b>HOW TO INSTALL NES ROMs ?</b><br />
 Once Retropie is running EmulationStation:<br />
@@ -121,7 +118,6 @@ Once all will be downloaded and installed - EmulationStation will run again auto
 <hr>
 <br />
 
-
 <b>HOW TO INSTALL ROMs MANUALLY?</b><br />
 
 Download zip file and extract roms into directory for roms:<br />
@@ -133,5 +129,5 @@ Run emulationstation and all should work!<br />
 <br />
 Other ways of Transferring Roms can be found on RetroPie Setup Wiki:<br />
 https://github.com/RetroPie/RetroPie-Setup/wiki/Transferring-Roms
-<br />
+<br /><br />
 Enjoy!
