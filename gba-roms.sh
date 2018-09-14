@@ -36,7 +36,11 @@ echo "======================================================================="
 echo ""
 sleep 2
 
-cd /home/pi/RetroPie/roms/gba
+cd /home/pi/RetroPie/roms
+if [ ! -d "gba" ]; then
+mkdir gba
+fi
+cd gba
 ###CLEAN EVERYTHING!
 rm -rf *.*
 
@@ -54,7 +58,7 @@ echo "======================================================================="
 echo "Downloading and Extracting Games to ROM directory, please wait..."
 echo "======================================================================="
 echo ""
-echo " DOWNLOAD ... done."
+echo " DOWNLOAD AND EXTRACT... done."
 sleep 2
 
 echo ""
@@ -64,8 +68,12 @@ echo "======================================================================="
 echo ""
 sleep 2
 cd ~
-cd /home/pi/.emulationstation/gamelists/gba/
-rm gamelist.xml
+cd /home/pi/.emulationstation/gamelists/
+if [ ! -d "gba" ]; then
+mkdir gba
+fi
+cd gba
+rm -rf *.*
 mv /home/pi/RetroPie/roms/gba/gamelist.xml /home/pi/.emulationstation/gamelists/gba > /dev/null
 sleep 2
 
