@@ -1,6 +1,7 @@
 # retropie-installers
 Retropie auto-installer scripts for homebrew games
 
+<b>Please see first!!: https://github.com/retrobrews/installers/wiki</b><br /><br />
 
 <b>HOW TO INSTALL GBA ROMs ?</b><br />
 Once Retropie is running EmulationStation:<br />
