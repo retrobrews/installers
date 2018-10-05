@@ -64,6 +64,26 @@ Once Done, you need to restart emulation station.<br />
 <hr>
 <br />
 
+
+<b>HOW TO INSTALL MEGADRIVE/GENESIS ROMs ?</b><br />
+Once Retropie is running EmulationStation:<br />
+Hit F4
+<br />
+Enter below:<br />
+<i>wget http://tiny.cc/md-roms</i><br />
+<i>mv md-roms md-roms.sh</i><br />
+<i>chmod +x md-roms.sh</i><br />
+<i>./md-roms.sh</i><br />
+or<br />
+<i>wget https://raw.githubusercontent.com/retrobrews/installers/master/md-roms.sh</i><br />
+<i>chmod +x md-roms.sh</i><br />
+<i>./md-roms.sh</i><br />
+<br />
+Once all will be downloaded and installed - EmulationStation will run again automatically...<br />
+<hr>
+<br />
+
+
 <b>HOW TO INSTALL NES ROMs ?</b><br />
 Once Retropie is running EmulationStation:<br />
 Hit F4
