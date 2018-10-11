@@ -52,6 +52,10 @@ unzip master.zip
 mv -v md-games-master/* /home/pi/RetroPie/roms/megadrive > /dev/null
 rm -rf md-games-master
 rm *.zip
+### remove README.md --> md is megadrive extension
+cd /home/pi/RetroPie/roms/megadrive/
+rm README.md
+cd ~
 clear
 
 echo " "
