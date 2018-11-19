@@ -3,6 +3,25 @@ Retropie auto-installer scripts for homebrew games
 
 <b>Please see first!!: https://github.com/retrobrews/installers/wiki</b><br /><br />
 
+<b>HOW TO INSTALL Atari 2600 ROMs ?</b><br />
+Once Retropie is running EmulationStation:<br />
+Hit F4
+<br />
+Enter below:<br />
+<i>wget http://tiny.cc/a2600-roms</i><br />
+<i>mv a2600-roms a2600-roms.sh</i><br />
+<i>chmod +x a2600-roms.sh</i><br />
+<i>./a2600-roms.sh</i><br />
+or <br />
+<i>wget https://raw.githubusercontent.com/retrobrews/installers/master/a2600-roms.sh</i><br />
+<i>chmod +x a2600-roms.sh</i><br />
+<i>./a2600-roms.sh</i><br />
+<br />
+Once all will be downloaded and installed - EmulationStation will run again automatically...<br />
+<hr>
+<br />
+
+
 <b>HOW TO INSTALL GBA ROMs ?</b><br />
 Once Retropie is running EmulationStation:<br />
 Hit F4
