@@ -44,7 +44,7 @@ fi
 cd atari2600
 ###CLEAN EVERYTHING!
 rm -rf *.*
-https://github.com/retrobrews/atari2600-games/archive/master.zip
+
 
 ### GAMES
 wget --no-check-certificate -q -O master.zip 'https://codeload.github.com/retrobrews/atari2600-games/zip/master'
