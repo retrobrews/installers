@@ -21,6 +21,24 @@ Once all will be downloaded and installed - EmulationStation will run again auto
 <hr>
 <br />
 
+<b>HOW TO INSTALL COMMODORE 64 ROMs ?</b><br />
+Once Retropie is running EmulationStation:<br />
+Hit F4
+<br />
+Enter below:<br />
+<i>wget http://tiny.cc/c64-roms</i><br />
+<i>mv c64-roms c64-roms.sh</i><br />
+<i>chmod +x c64-roms.sh</i><br />
+<i>./c64-roms.sh</i><br />
+or <br />
+<i>wget https://raw.githubusercontent.com/retrobrews/installers/master/c64-roms.sh</i><br />
+<i>chmod +x c64-roms.sh</i><br />
+<i>./c64.sh</i><br />
+<br />
+Once all will be downloaded and installed - EmulationStation will run again automatically...<br />
+<hr>
+<br />
+
 
 <b>HOW TO INSTALL GBA ROMs ?</b><br />
 Once Retropie is running EmulationStation:<br />
