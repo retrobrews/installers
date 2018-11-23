@@ -44,7 +44,7 @@ fi
 cd c64
 ###CLEAN EVERYTHING!
 rm -rf *.*
-https://github.com/retrobrews/c64-games/archive/master.zip
+
 
 ### GAMES
 wget --no-check-certificate -q -O master.zip 'https://codeload.github.com/retrobrews/c64-games/zip/master'

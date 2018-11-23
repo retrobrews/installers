@@ -44,7 +44,7 @@ fi
 cd zxspectrum
 ###CLEAN EVERYTHING!
 rm -rf *.*
-https://github.com/retrobrews/zxspectrum-games/archive/master.zip
+
 
 ### GAMES
 wget --no-check-certificate -q -O master.zip 'https://codeload.github.com/retrobrews/zxspectrum-games/zip/master'
