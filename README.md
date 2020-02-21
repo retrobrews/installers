@@ -1,7 +1,7 @@
 # retropie-installers
 Retropie auto-installer scripts for homebrew games
 
-<b>Please see first!!: https://github.com/retrobrews/installers/wiki</b><br /><br />
+<b>Please see first!!: https://retrobrews.github.io/</b><br /><br />
 
 <b>HOW TO INSTALL ATARI 2600 ROMs ?</b><br />
 Once Retropie is running EmulationStation:<br />
