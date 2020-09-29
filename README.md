@@ -195,6 +195,25 @@ Once all will be downloaded and installed - EmulationStation will run again auto
 <br />
 
 
+<b>HOW TO INSTALL ALL ROMs AT ONCE (ALL IN ONE)?</b><br />
+Once Retropie is running EmulationStation:<br />
+Hit F4
+<br />
+Enter below:<br />
+<i>wget http://tiny.cc/aio-roms</i><br />
+<i>mv aio-roms aio-roms.sh</i><br />
+<i>chmod +x aio-roms.sh</i><br />
+<i>./aio-roms.sh</i><br />
+or <br />
+<i>wget https://raw.githubusercontent.com/retrobrews/installers/master/aio-roms.sh</i><br />
+<i>chmod +x aio-roms.sh</i><br />
+<i>./aio-roms.sh</i><br />
+<br />
+Once all will be downloaded and installed - EmulationStation will run again automatically...<br />
+<hr>
+<br />
+
+
 <b>HOW TO INSTALL ROMs MANUALLY?</b><br />
 
 Download zip file and extract roms into directory for roms:<br />
